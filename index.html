@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Wage Worker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero-section">
+        <nav class="navbar">
+            <div class="logo">DailyWorker</div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Find Trusted Workers for Your Daily Needs</h1>
+            <p>Connecting skilled workers with job opportunities near you.</p>
+            <button class="btn-primary" onclick="alert('Coming Soon!')">Get Started</button>
+        </div>
+    </header>
+
+    <main>
+       <!-- Services Section -->
+<section id="services" class="services-section">
+    <h2 data-aos="fade-right">Our Services</h2>
+    <p data-aos="fade-up">Discover a wide range of services provided by skilled professionals to cater to your needs.</p>
+    <div class="services-grid">
+        <div class="service-card" data-aos="zoom-in">
+            <div class="service-icon">
+                <i class="fas fa-hammer"></i>
+            </div>
+            <div class="service-content">
+                <h3>Carpentry</h3>
+                <p>Custom furniture, repairs, and woodworking by experienced craftsmen.</p>
+            </div>
+        </div>
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-icon">
+                <i class="fas fa-wrench"></i>
+            </div>
+            <div class="service-content">
+                <h3>Plumbing</h3>
+                <p>From fixing leaks to complete installations, we've got you covered.</p>
+            </div>
+        </div>
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+            <div class="service-icon">
+                <i class="fas fa-bolt"></i>
+            </div>
+            <div class="service-content">
+                <h3>Electricians</h3>
+                <p>Reliable and certified electricians for safe and efficient services.</p>
+            </div>
+        </div>
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="600">
+            <div class="service-icon">
+                <i class="fas fa-paint-roller"></i>
+            </div>
+            <div class="service-content">
+                <h3>Painting</h3>
+                <p>Professional painters to refresh your spaces with vibrant colors.</p>
+            </div>
+        </div>
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="800">
+            <div class="service-icon">
+                <i class="fas fa-tools"></i>
+            </div>
+            <div class="service-content">
+                <h3>Repairs</h3>
+                <p>General repair services for all your home and office needs.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+       <!-- About Section -->
+<section id="about" class="about-section">
+    <div class="about-container">
+        <div class="about-text" data-aos="fade-right">
+            <h2>About Us</h2>
+            <p>
+                At DailyWorker, we bridge the gap between skilled workers and clients looking for reliable services. 
+                Our mission is to simplify your life by connecting you with professionals who deliver exceptional results.
+            </p>
+            <p>
+                Whether it's carpentry, plumbing, electrical work, or more, our trusted network ensures quality and satisfaction. 
+                Together, we're creating opportunities for workers while enhancing lives for clients.
+            </p>
+            <button class="btn-primary" onclick="alert('Learn More Coming Soon!')">Learn More</button>
+        </div>
+        <div class="about-image" data-aos="fade-left">
+            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg" alt="About Us">
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="contact-container">
+        <!-- Contact Info -->
+        <div class="contact-info" data-aos="fade-right">
+            <h2>Contact Us</h2>
+            <p>We are always here to help you with any queries. Reach out to us, and we'll respond promptly.</p>
+            <div class="contact-details">
+                <div class="detail">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email: support@dailyworker.com</span>
+                </div>
+                <div class="detail">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>Phone: +123-456-7890</span>
+                </div>
+                <div class="detail">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Location: 123 Worker Lane, New City</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form" data-aos="fade-left">
+            <h3>Send Us a Message</h3>
+            <form id="contactForm" action="submit_form.php" method="POST">
+                <div class="input-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    </main>
+
+   <!-- Footer Section -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Stay Connected</h3>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-column">
+            <h3>Contact Info</h3>
+            <p>Email: info@dailyworker.com</p>
+            <p>Phone: +123-456-7890</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 DailyWorker. All Rights Reserved.</p>
+    </div>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
